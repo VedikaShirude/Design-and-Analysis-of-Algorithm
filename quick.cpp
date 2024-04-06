@@ -57,3 +57,26 @@ int partition(int arr[],int low,int up){
     arr[j] = pivot;
     return j;
 }
+/*The unsorted array is :
+
+99
+55
+33
+22
+1
+66
+5
+6
+3
+The sorted array is:
+ 
+1
+3
+5
+6
+22
+33
+55
+66
+99
+*/
